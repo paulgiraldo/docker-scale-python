@@ -14,7 +14,7 @@ services:
       context: ./nginx
       dockerfile: Dockerfile
     ports:
-      - 8087:80
+      - 8089:80
     depends_on:
       - flask
     networks:
